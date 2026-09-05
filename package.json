@@ -1,0 +1,8 @@
+{
+  "name": "property-listing-aggregate",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {"start": "tsx src/main.ts", "test": "tsx src/property_aggregate.test.ts", "typecheck": "tsc --noEmit"},
+  "dependencies": {"openai": "^4.86.1", "tsx": "^4.19.2", "zod": "^3.24.1"},
+  "devDependencies": {"typescript": "^5.7.2", "@types/node": "^22.10.5"}
+}
